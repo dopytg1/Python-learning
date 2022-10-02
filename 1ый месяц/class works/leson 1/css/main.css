@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a { 
+    text-decoration: none;
+}
+* {
+    margin: 0;
+}
+h1 {
+    color: #000;
+}
+.main_div {
+    width: 100;
+    color: aqua;
+    background-color: #290;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#some_div {
+    margin-left: 40%;
+    width: 50%;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+.some_div_words {
+    text-align: center;
+}
+.main_input {
+    background-color: blue;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.catPhotos_div {
+    height: 30%;
+    margin-top: 100px;
+}
+.catPhotos_section {
+    margin-left: 30%;
+    margin-right: auto;
+    padding-top: 80px;
+}
+.page1_button {
+    display: block;
+}
+.red {
+    font-size: 20px;
+}
+.blue {
+    font-size: 200px;
+}

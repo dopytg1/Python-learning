@@ -1,0 +1,54 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+}
+
+.nav-item a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.bg-purple {
+    background-color: #775ba3;
+}
+
+.logo-image {
+    width: 150px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+.user-icon {
+    color: #fff;
+    font-size: 20px;
+    margin-left: auto;
+}
+
+.user-icon:hover {
+    color: #fff;
+    transform: scale(1.2);
+    transition: 300ms;
+}
+
+.indicator[data-bs-target] {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.indicator.active[data-bs-target] {
+    background-color: #fff;
+}
+
+.icon {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    line-height: 38px;
+    font-size: 25px;
+}

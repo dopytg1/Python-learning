@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Connectez-vous à votre compte</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping"><i class="bi bi-person"></i></span>
+            <input type="text" class="form-control" placeholder="Nom d'utilisateur" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+          <div class="input-group flex-nowrap input_modal">
+            <span class="input-group-text" id="addon-wrapping"><i class="bi bi-bag"></i></span>
+            <input type="text" class="form-control" placeholder="le mot" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">entrer</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">sortir</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img class="logo-image" src="images/logo.png" alt="main logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="text-uppercase nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="text-uppercase nav-link" href="#">Portfolios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="text-uppercase nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="text-uppercase nav-link" href="#">Contacts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="text-uppercase nav-link" href="#">Shop</a>
+                  </li>
+                </ul>
+
+                <hr class="text-light">
+
+                <button type="button" class="user-icon" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="bi bi-person"></i>
+                </button>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button class="indicator active" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+              <button class="indicator" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button class="indicator" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/slide-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/slide-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/slide-3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/slide-3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section class="main-text-section">
+      <div class="container">
+        <h1>La Liberté guidant le peuple</h1>
+        <p>La Liberté guidant  le peuple est une huile sur toile d'Eugène Delacroix réalisée en 1830, inspirée de la révolution des Trois Glorieuses qui s'est passée en 1830. Présentée au public au Salon de Paris de 1831 sous le titre Scènes de barricades  </p>
+
+      </div>
+    </section>
+    <hr class="hr">
+
+    <section class="icon-section-main">
+      <div class="container">
+        <h1>Postérité de l'œuvre</h1>
+
+        <div class="row icon_main justify-content-evenly">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="text-center"><i class="icon bi bi-gear"></i></div>
+            <p class="text_icons bold"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti deleniti placeat, soluta ea, corporis qui perspiciatis id commodi odio harum optio molestias illum! Id repellat, quos repellendus cupiditate laboriosam iusto!</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="text-center"><i class="icon bi bi-eye"></i></div>
+            <p class="text_icons bold"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti deleniti placeat, soluta ea, corporis qui perspiciatis id commodi odio harum optio molestias illum! Id repellat, quos repellendus cupiditate laboriosam iusto!</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="text-center"><i class="icon bi bi-arrow-down-up"></i></div>
+            <p class="text_icons bold"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti deleniti placeat, soluta ea, corporis qui perspiciatis id commodi odio harum optio molestias illum! Id repellat, quos repellendus cupiditate laboriosam iusto!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="hr">
+
+    <section class="photo-section-main">
+      <div class="container">
+        <h1>Notre Equipe</h1>
+
+        <div class="row photo-main justify-content-evenly"> 
+
+          <div class="col-lg-4 col-md-6 col-sm-6 photo-item">
+            <img src="images/photo-1.jpg" alt="" class="photo">
+            <h2>Craig Garner CEO</h2>
+            <p class="text_icons">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sequi.</p>
+            
+            <div class="web_photo_main row">
+              <a href="#" class="asd"><div class="web1 col-6"><i class="bi bi-facebook"></i></div></a>
+              <a href="#" class="asd"><div class="col-6 web-google"><i class="bi bi-google"></i></div></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6 photo-item">
+            <img src="images/photo-2.jpg" alt="" class="photo">
+            <h2>Bridge Roberts Creative Genius</h2>
+            <p class="text_icons">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sequi.</p>
+            <div class="web_photo_main row">
+              <a href="#" class="asd"><div class="web1 col-6"><i class="bi bi-facebook"></i></div></a>
+              <a href="#" class="asd"><div class="col-6 web-google"><i class="bi bi-google"></i></div></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6 photo-item">
+            <img src="images/photo-3.jpg" alt="" class="photo">
+            <h2>Marage Garner Chef De Projet</h2>
+            <p class="text_icons">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sequi.</p>
+            <div class="web_photo_main row">
+              <a href="#" class="asd"><div class="col-6 web-twitter"><i class="bi bi-twitter"></i></div></a>
+              <a href="#" class="asd"><div class="web2 col-6"><i class="bi bi-youtube"></i></div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, veritatis!</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

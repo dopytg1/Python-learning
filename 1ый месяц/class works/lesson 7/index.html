@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <section class="">
+
+
+        <div class="form_wrapper">
+            <form action="#" method="post">
+                <div class="input_row">
+                    <label for="userName">Введите имя</label>
+                    <input autofocus required id="userName" name="userFirstName" type="text" placeholder="Введите имя">
+                </div>
+                <div class="input_row">
+                    <label>
+                        Введите фамилию
+                        <input required type="text" name="userLastName" placeholder="Введите фамилию">
+                    </label>
+                </div>
+
+                <div>
+                    <label >
+                        Ваша любимая еда
+                        <select name="" id="">
+                            <option value="pza">Pizza</option>
+                            <option selected value="pst">Pasta</option>
+                            <option value="sp">Soup</option>
+                        </select>
+                    </label>
+                    
+                </div>
+
+                <div class="input_row">
+                    <label>
+                        Введите возраст
+                        <input type="number" name="password" placeholder="Введите возраст" min="0" max="1000">
+                    </label>
+                </div>
+                <div>
+                    <div class="input-row">
+                        менее 20 лет 
+                        <input checked name="radio-input" type="radio">
+                    </div>
+                    <div class="input-row">
+                        менее 40 лет
+                        <input name="radio-input" type="radio">
+                    </div>
+                    <div class="input-row">
+                        более 40 лет
+                        <input name="radio-input" type="radio">
+                    </div>
+                </div>
+                <div class="input_row">
+                    <label>
+                        Введите пароль
+                        <input required type="password" name="password" placeholder="Введите пароль" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*">
+                    </label>
+                </div>
+                <textarea class="area"></textarea>
+                <div class="input_row">
+                    <label>
+                        Я согласен на обработку моих данных
+                        <input checked required type="checkbox" name="agreement">
+                    </label>
+                </div>
+                <button type="submit">
+                    Ok
+                </button>
+                <button type="reset">
+                    Reset
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button> -->
+  
+  <!-- Modal -->
+  <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" autofocus>
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

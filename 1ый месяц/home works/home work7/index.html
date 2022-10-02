@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="modal fade" id="Modal_reg" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <form action="#" method="get">
+                    <div class="mb-3">
+                        <label for="UserName" class="form-label">UserName</label>
+                        <input required type="text" class="form-control" id="UserName" placeholder="UserName" name="Username">
+                      </div>
+                    <div class="mb-3">
+                      <label for="Email" class="form-label">Email address</label>
+                      <input required type="email" class="form-control" id="Email" placeholder="Email address" name="Email">
+                    </div>
+                    <div class="mb-3">
+                      <label for="Password1" class="form-label">Password</label>
+                      <input required type="password" class="form-control" id="Password1" placeholder="Password" name="Password1" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Password2" class="form-label">Repeat Password</label>
+                        <input required type="password" class="form-control" id="Password2" placeholder="Repeat Password" name="Password2" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*">
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Send</button>
+                  </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <header class="header">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-green">
+                    <div class="container">
+                      <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse space-between ms-4" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Employers</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Portfolio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">About us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Team</a>
+                          </li>
+                        </ul>
+                        <button class="btn btn-green btn-14px " type="button" data-bs-toggle="modal" data-bs-target="#Modal_reg">Sign Up</button>
+                      </div>
+                    </div>
+                  </nav>
+    </header>
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button class="indicator active" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button class="indicator" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button class="indicator" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h1 class="main_text_carousel"><span class="text-green">Where will</span> <span class="text-black">great work</span>  <span class="text-green">take you?</span></h1>
+                <img src="images/slider-pic.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <h1 class="main_text_carousel"><span class="text-green">Where will</span> <span class="text-black">great work</span>  <span class="text-green">take you?</span> </h1>
+                <img src="images/slider-pic.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <h1 class="main_text_carousel"><span class="text-green">Where will</span> <span class="text-black">great work</span>  <span class="text-green">take you?</span></h1>
+                <img src="images/slider-pic.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <img src="images/arrow-left.png" alt="" class="active arrows">
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <img src="images/arrow-right.png" alt="" class="active arrows">
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="container">
+            <div class="intro_main row">
+                <div class="col-12 col-md-6 intro_img">
+                    <img src="images/pic-big-1.png" alt="" class="w-80">
+                </div>
+                <div class="col-12 col-md-6 intro_main_text">
+                    <h1 class="title">Find <span class="text-green">the perfect</span>  job fast </h1>
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat molestiae ipsa accusamus minus, eos nostrum, quam cupiditate totam sint eius nesciunt impedit qui unde saepe beatae distinctio nobis fuga aliquam?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5 talen_section">
+        <div class="container">
+            <div class="row talents_main">
+                <div class="col-12 col-md-6 talents">
+                    <h1 class="title">Great <span class="text-green">work starts</span>  with great talent </h1>
+                    <ul>
+                        <li class="talent text">Get amazing result working with the best programmers</li>
+                        <li class="talent text">Designers, writers and other top online pros</li>
+                        <li class="talent text">Hire freelancer with confidence, always knowing</li>
+                        <li class="talent text">Their work experience and feedback from other clients</li>
+                        <li class="talent text">Designers, writers and other top online pros.</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 talent-img">
+                    <img src="images/pic-big-2.png" alt="" class="w-80">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="card-main">
+        <div class="container">
+            <h1 class="title">Recent Work Done on <span class="text-green">JOB BOARD</span> </h1>
+
+            <div class="row row-cols-1 row-cols-md-2  row-cols-lg-3 row-cols-xl-4 g-4">
+                <div class="col">
+                    <div class="card h-100 margin0auto" style="width: 16rem;">
+                        <img src="images/pic-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary w-60 br-0">Graphics</a>
+                            <p class="cards-text">Round Icons Design</p>
+                        </div>
+                      </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 margin0auto" style="width: 16rem;">
+                        <img src="images/pic-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-success w-60 br-0">Graphics</a>
+                            <p class="cards-text">Stationary Design</p>
+                        </div>
+                      </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 margin0auto" style="width: 16rem;">
+                        <img src="images/pic-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-purple w-60 br-0">Graphics</a>
+                            <p class="cards-text">Logo Design</p>
+                        </div>
+                      </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 margin0auto" style="width: 16rem;">
+                        <img src="images/pic-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-warning w-60 br-0">Graphics</a>
+                            <p class="cards-text">Branding</p>
+                        </div>
+                      </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 margin0auto" style="width: 16rem;">
+                        <img src="images/pic-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-success w-60 br-0">Graphics</a>
+                            <p class="cards-text">Visiting Card Design</p>
+                        </div>
+                      </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 margin0auto" style="width: 16rem;">
+                        <img src="images/pic-6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-warning w-60 br-0">Graphics</a>
+                            <p class="cards-text">Brochure Design</p>
+                        </div>
+                      </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 margin0auto" style="width: 16rem;">
+                        <img src="images/pic-7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary w-60 br-0">Graphics</a>
+                            <p class="cards-text">Branding</p>
+                        </div>
+                      </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 margin0auto" style="width: 16rem;">
+                        <img src="images/pic-8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-purple w-60 br-0">Graphics</a>
+                            <p class="cards-text">Stationary Design</p>
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>© 2015 JOB BOARD Landing Page By Mike Taylor</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

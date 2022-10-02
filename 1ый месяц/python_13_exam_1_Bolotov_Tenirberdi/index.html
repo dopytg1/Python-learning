@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-md">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="images/logo.png" alt="" class="w-100"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Works</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="btn-slider-changer active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            class="btn-slider-changer"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            class="btn-slider-changer"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="slider-text-main">
+              <h1>Meet Brandi!</h1>
+              <p class="slider-text-2">creative one page template</p>
+              <p class="slider-text-3">We are a team of professionals</p>
+            </div>
+            <img src="images/slider-pic.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <div class="slider-text-main">
+              <h1>Meet Brandi!</h1>
+              <p class="slider-text-2">creative one page template</p>
+              <p class="slider-text-3">We are a team of professionals</p>
+            </div>
+            <img src="images/slider-pic.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <div class="slider-text-main">
+              <h1>Meet Brandi!</h1>
+              <p class="slider-text-2">creative one page template</p>
+              <p class="slider-text-3">We are a team of professionals</p>
+            </div>
+            <img src="images/slider-pic.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="prev-btn" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="next-btn" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="features-main pb-10">
+      <div class="container-md pt-5 text-center">
+        <h1 class="title">Features</h1>
+        <p class="heart-icon mb-5"><i class="bi bi-suit-heart"></i></p>
+
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-evenly"
+        >
+          <div class="col features-cols">
+            <a href="#" class="features-icon1"><h1>Branding</h1></a>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              dolorem nostrum natus asperiores praesentium placeat dolor hic
+              nihil debitis voluptatum.
+            </p>
+          </div>
+          <div class="col features-cols">
+            <a href="#" class="features-icon2"><h1>Development</h1></a>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
+              repellat ea eaque aliquam amet, minima illum alias. Magnam,
+              accusantium? Repellat?
+            </p>
+          </div>
+          <div class="col features-cols">
+            <a href="#" class="features-icon3"><h1>Consulting</h1></a>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              cum distinctio perspiciatis incidunt inventore, quibusdam
+              accusamus quam nam laboriosam repellendus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="works_main pb-5">
+      <div class="container-md pt-5 text-center">
+        <h1 class="title">Works</h1>
+        <p class="heart-icon"><i class="bi bi-suit-heart"></i></p>
+        <p class="work-text pb-4">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore
+        </p>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 works-cards">
+          <div class="col card pad-0 bor-0" style="width: 19rem">
+            <img
+              src="images/photo-1.jpg"
+              class="card-img-top w-100"
+              alt="..."
+              style="min-height: 200px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Branding</h5>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta.
+              </p>
+              <a href="#" class="btn-card-work">Read more >></a>
+            </div>
+          </div>
+
+          <div class="col card pad-0 bor-0" style="width: 19rem">
+            <img
+              src="images/photo-2.jpg"
+              class="card-img-top w-100"
+              alt="..."
+              style="min-height: 200px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Logo Design</h5>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta.
+              </p>
+              <a href="#" class="btn-card-work">Read more >></a>
+            </div>
+          </div>
+
+          <div class="col card pad-0 bor-0" style="width: 19rem">
+            <img
+              src="images/photo-3.jpg"
+              class="card-img-top w-100"
+              alt="..."
+              style="min-height: 200px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Photography</h5>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta.
+              </p>
+              <a href="#" class="btn-card-work">Read more >></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fun-facts-main text-center">
+      <div class="container-md">
+        <h1 class="title pt-5">Some Fun Facts</h1>
+        <p class="heart-icon"><i class="bi bi-suit-heart color-white"></i></p>
+
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5 fun-cards-main"
+        >
+          <div class="col fun-cols">
+            <div class="img-main">
+              <div class="img-icon clock"></div>
+            </div>
+            <h1>3200</h1>
+            <p>Hours of Work</p>
+          </div>
+          <div class="col fun-cols">
+            <div class="img-main">
+              <div class="img-icon users"></div>
+            </div>
+            <h1>120</h1>
+            <p>Satisfied Clinets</p>
+          </div>
+          <div class="col fun-cols">
+            <div class="img-main">
+              <div class="img-icon rocket"></div>
+            </div>
+            <h1>360</h1>
+            <p>Projects delivered</p>
+          </div>
+          <div class="col fun-cols">
+            <div class="img-main">
+              <div class="img-icon cup"></div>
+            </div>
+            <h1>42</h1>
+            <p>Awards Won</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container-md d-flex footer-btwn">
+        <a href="#"><img src="images/logo.png" alt="" /></a>
+
+        <p>© 2014 Brandi. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

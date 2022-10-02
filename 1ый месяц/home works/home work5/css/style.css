@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+}
+.nav_items {
+    justify-content: flex-end;
+}
+.nav_items li {
+    margin-left: 14px;
+}
+.header_img {
+    background: url(../images/main-pic.jpg) no-repeat center top;
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+}
+.welcome_section_title {
+    padding: 30px 0 20px 0;
+}
+.card-title {
+    text-transform: capitalize;
+    padding: 20px;
+    background-color: #d7d7d7;
+}
+.learn_more_btn_welcome {
+    margin-top: auto !important;
+    display: inline-block;
+}
+.card-body {
+    padding: 0;
+}
+.card-body p {
+    padding: 20px;
+    padding-bottom: 5px;
+}
+.card-body button {
+    margin: 0 0 20px 20px;
+}
+.portfolio_main {
+    margin-top: 50px;
+}
+
+/* Images */
+.col-img {
+    width: 31%;
+    min-height: 250px;
+}
+.column_img1 {
+    background: url(../images/ph1.jpg) no-repeat center top;
+    background-size: cover;
+}
+.column_img2 {
+    background: url(../images/ph2.jpg) no-repeat center top;
+    background-size: cover;
+}
+.column_img3 {
+    background: url(../images/ph3.jpg) no-repeat center top;
+    background-size: cover;
+}
+.column_img4 {
+    background: url(../images/ph4.jpg) no-repeat center top;
+    background-size: cover;
+}
+.column_img5 {
+    background: url(../images/ph5.jpg) no-repeat center top;
+    background-size: cover;
+}
+.modern_main_img {
+    text-align: center;
+}
+.modern_img {
+    background: url(../images/ph2.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 450px;
+}
+
+
+.first_row_portfolio {
+    margin-bottom: 30px;
+}
+
+.title_modern_section {
+    margin-top: 50px;
+}
+
+.call_to_action_main {
+    margin-top: 40px;
+}
+
+.call_to_action {
+    background-color: #cbcbcb;
+    align-items: center;
+    border: 1px solid #949494;
+    border-radius: 3px;
+    margin: 30px 0 30px 0;
+    min-height: 90px;
+}
+.call_btn {
+    /* height: 30%; */
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+/* MEDIA */
+
+@media screen and (max-width: 1120px) {
+    .column_img3 {
+        margin-top: 20px;
+    }
+    .col-img {
+        width: 45%;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .col-3 {
+        margin: 0;
+        margin-top: 20px;
+    }
+    .col-img {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 560px) {
+    .modern_main_item {
+        width: 100%;
+        padding-right: 0;
+    }
+    .modern_main_img {
+        width: 100%;
+    }
+    .first_row_portfolio {
+        margin-bottom: 0;
+    }
+}

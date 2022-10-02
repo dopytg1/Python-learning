@@ -1,0 +1,6 @@
+body {
+    padding-bottom: 300px;
+}
+.card {
+    flex-grow: 5;
+}

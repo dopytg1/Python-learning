@@ -1,0 +1,33 @@
+/* body {
+    margin: 0;
+    padding-top: 150px;
+    background-color: rgb(31, 227, 227);
+}
+.form_wrapper {
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.input_row {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: 10px;
+}
+.input_row input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.area {
+    width: 100%;
+    min-height: 200px;
+    box-sizing: border-box;
+    resize: none;
+} */

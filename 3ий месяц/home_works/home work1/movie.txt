@@ -1,0 +1,3 @@
+name****Avengers: Infinity War&&&&ratings****Jack||||9####Jane||||10&&&&average****9.5
+name****Interstellar&&&&ratings****John||||10####Jack||||3&&&&average****6.5
+name****The lord of the rings&&&&ratings****Alex||||10&&&&average****10.0

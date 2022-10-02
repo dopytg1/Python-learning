@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.boxes {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 500px;
+    flex-wrap: wrap;
+}
+.box {
+    border: 2px solid red;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.box h3,
+.box p,
+.box a  
+{
+    border: 1px solid black;
+}
+.box a {
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+.box p {
+    flex-grow: 1;
+}
+.box_2 {
+    /* flex-grow: 1; */
+    /* flex-shrink: 5; */
+    order: 4;
+}
+
+.box_3 {
+    /* flex-grow: 2; */
+    order: 4;
+}

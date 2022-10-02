@@ -1,0 +1,29 @@
+----------------------------------------------------------------------------
+
+task 1: 
+
+SELECT products.product, actions.product_id, actions.price, actions.action_date FROM actions
+INNER JOIN products ON products.id = actions.product_id
+WHERE product LIKE 'Monitor%' and YEAR(actions.action_date) < 2021
+ORDER BY actions.price DESC LIMIT 5;
+
+----------------------------------------------------------------------------
+
+task2:
+
+SELECT products.product, suppliers.supplier, 
+actions.action_date, actions.qty, actions.price FROM actions
+INNER JOIN products ON products.id = actions.product_id
+INNER JOIN suppliers ON suppliers.id = actions.supplier_id
+WHERE actions.action_date LIKE '2020-01%'
+ORDER BY actions.action_date DESC
+
+----------------------------------------------------------------------------
+
+task3:
+
+SELECT DISTINCT(products.product) as products_sold_in_2021 FROM actions
+INNER JOIN products ON products.id = actions.product_id
+WHERE actions.action_date LIKE '2021%';
+
+----------------------------------------------------------------------------

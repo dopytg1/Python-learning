@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li {
+    list-style-type: none; 
+}
+ul {
+    margin-left: 0; 
+    padding-left: 0; 
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    height: 70px;
+    background-color: white;
+    opacity: .8;
+    z-index: 100000000;
+}
+
+.header-inner {
+    height: 100%;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    opacity: 1;
+}
+
+.logo_div {
+    margin-left: 3%;
+    vertical-align: middle;
+}
+
+.logo {
+    color: black !important;
+    margin-top: 35%;
+    font-size: 20px;
+}
+
+#logo {
+    width: 80px;
+    height: 100%;
+}
+
+.menu {
+    height: 100%;
+    display: table;
+}
+
+.vertical_align_bar {
+    margin-top: 4.5%;
+}
+
+.menu_bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar_item {
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+
+/* MENU */
+
+.welcome_page_main {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    background-color: #282a35;
+
+
+}
+
+.welcome_container {
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+    position: absolute;
+    top: 60%;
+    transform: translate(0, -50%);
+    left: 30%;
+    text-align: center;
+}
+.welcome_container h1 {
+    font-size: 60px;
+    color: white;
+    padding-bottom: 10px;
+}
+.welcome_container h2 {
+    font-size: 25px;
+    color: #FFC0C7;
+    padding-bottom: 10px;
+
+}
+.welcome_container form{
+    display: block;
+
+}
+.photo_sender {
+    display: block;
+    margin-top: 10px !important;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #FFC0C7;
+    border-radius: 25px;
+    line-height: 20px;
+}
+
+
+/* ABOUT US */
+
+.about_us_main {
+    width: 100%;
+    height: 75vh;
+    background-color: #D9EEE1;
+}
+
+.about_us_container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+.about_us_text {
+    width: 50%;
+    height: 50%;
+    margin-top: 13%;
+    text-align: center;
+}
+.about_us_text h1 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.about_us_text p {
+    font-size: 20px;
+    font-weight: 80;
+}
+.about_us_img {
+    width: 50%;
+    height: 50%;
+    margin-top: 13%;
+    margin-left: 20px;
+
+    background-image: url(../img/zakat_batumi1-858x503.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about_us_img:hover {
+    opacity: .9;
+    cursor: pointer;
+
+    transition: .8 ease;
+}
+
+/* PHOTO */
+
+.main_photo {
+    width: 100%;
+    height: 90vh;
+}
+
+.photo_container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.photo_container h1 {
+    margin-top: 30px;
+}
+.photo_calage {
+    width: 100%;
+    height: 90%;
+    margin-top: 20px;
+}
+.photo_calage img {
+    max-width: 45%;
+    max-height: 45%;
+    
+}
+.photo_calage img:hover {
+    opacity: .8;
+    max-width: 45%;
+    transition: .8 ease;
+    cursor: pointer;
+}
+/* FOOTER */
+
+
+.footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #282a35;
+    
+}
+.footer_container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-weight: 80;
+    vertical-align: middle;
+}
+.email_footer {
+    font-weight: 100;
+    padding-top: 4%;
+}
+#Rick {
+    color: #FFC0C7 ;
+    padding-top: 5px;
+}
+
+/* MEDIA */
+
+/* На адаптивную верстку совсем не хватило времени. К тому же ниче 
+не понятно. Надеюсь у вас все нормально выглядит */
+
+@media screen and(max-width: 600px) {
+    .menu {
+        display: none;
+    }
+}

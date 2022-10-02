@@ -1,0 +1,14 @@
+Windows:
+
+1)cd Users\tenir\Documents
+2)mkdir Projects 
+3)cd Projects 
+4)mkdir Project1
+5)cd Project1 
+6)mkdir directory_1 directory_2 directory_3
+7)cd directory_1
+8)mkdir sub_dir_1 sub_dir_2
+9)cd ..
+10)cd directory_3
+11)mkdir sub_dir_3
+12)cls
